@@ -2,6 +2,8 @@ body{
   background-image: url('images/image3.png');
   
   background-color: rgb(5, 14, 65);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 #logo2{
   width: 40px;
@@ -95,11 +97,6 @@ vertical-align: default;
   padding: 0;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-}
-
 .container {
   width: 500px;
   margin: 25px auto;
@@ -141,25 +138,36 @@ form input {
 }
 
 form button {
-
+  width: 150px;
   height: 30px;
-
   line-height: 30px;
-
-  background: #ff8680;
-
+  background: #ff6680;
   color: #fff;
-
   margin-top: 10px;
-
   cursor: pointer;
+}
 
+form button:hover {
+    background: #ff4680;
+    color: #fff;
+}
+
+.caja-boton{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 form .error {
-
   color: #ff0000;
 
+}
+
+#password, #email, #firstname, #lastname{
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 14px;
 }
 
 #cont{
