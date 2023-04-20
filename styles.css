@@ -5,6 +5,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
+
 #logo2{
   width: 40px;
   margin-bottom: 5px;
@@ -138,6 +139,7 @@ form input {
 }
 
 form button {
+
   width: 150px;
   height: 30px;
   line-height: 30px;
@@ -232,4 +234,3 @@ img{
 .pie-pagina, .part1, .redsocial, #redes:hover {
   color: rgb(39, 43, 100);
 }
-
