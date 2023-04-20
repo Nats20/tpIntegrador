@@ -73,6 +73,10 @@ vertical-align: default;
 #gana{
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
+  font-weight: bold;
+}
+ #cg{
+ font-size: 20px;
 }
 .aux{
     box-sizing: border-box;
@@ -139,11 +143,9 @@ form input {
 }
 
 form button {
-
-  width: 150px;
+  background: #2abadb; 
   height: 30px;
   line-height: 30px;
-  background: #ff6680;
   color: #fff;
   margin-top: 10px;
   cursor: pointer;
@@ -178,7 +180,9 @@ form .error {
   background-color: rgba(10, 14, 68, 0.658);
  margin-top: 90px;  
 }
-
+#consult{
+  background-color: #ff840088;
+}
 
 .pie-pagina .container-fluid {
   width: 100%;
