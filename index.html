@@ -101,7 +101,7 @@
                     <input type="number" id="dni" name="dni"><br>
                     <label for="mensaje">Consulta</label>
                     <textarea name="consulta" id="consulta" rows="1"></textarea><br>
-                    <button type="sumit" onclick="generarPDF()">Generar comprobante</button>
+                    <button type="sumit" onclick="generarPDF()">Generar comprobante de consulta</button>
                 </form>
             
                 <script>
@@ -109,7 +109,6 @@
     
                         var nombre = document.getElementById('nombre').value;
                         var apellido = document.getElementById('apellido').value;
-                        var email = document.getElementById('email').value;
                         var dni = document.getElementById('dni').value;
                         var consulta = document.getElementById('consulta').value;
     
@@ -118,8 +117,8 @@
                         doc.text(20, 20, 'COMPUTECH');
                         doc.text(20, 30, 'Nombre: ' + nombre);
                         doc.text(20, 40, 'Apellido: ' + apellido);
-                        doc.text(20, 60, 'DNI: ' + dni);
-                        doc.text(20, 70, 'Consulta: '+ consulta)
+                        doc.text(20, 50, 'DNI: ' + dni);
+                        doc.text(20, 60, 'Consulta: '+ consulta)
             
                         doc.save('formulario.pdf');
                     }
@@ -162,7 +161,7 @@
                     </div>
                     <div class="col-xl-7 col-lg-7 col-xs-12 p-5 ">
                         <h2 class="sobre">SOBRE NOSOTROS</h2>
-                        <p id="somos"> Somos Bruna Grosso, Natalia Torres y Lautaro Müller, y para festejar la creación de nuestra página web decidimos realizar un sorteo para que nuestros clientes tengan la oportunidad de ganar uno de nuestros tantos buenos productos.</p>
+                        <p id="somos"> Para festejar la creación de nuestra página web decidimos realizar un sorteo para que nuestros clientes tengan la oportunidad de ganar uno de nuestros tantos buenos productos.</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-xs-12 p-5 caja-redes">
                         <h2 class="sobre">SIGUENOS</h2>
